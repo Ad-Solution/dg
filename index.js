@@ -32,31 +32,7 @@ const adData = [
         images: ['img7.jpg', 'img8.jpg', 'img9.jpg'],
         postedTime: '2023-03-01'
     },
-    // Additional ads for each category
-    {
-        id: 4,
-        category: 'footwear',
-        location: 'San Francisco',
-        price: 80,
-        images: ['img10.jpg', 'img11.jpg', 'img12.jpg'],
-        postedTime: '2023-04-01'
-    },
-    {
-        id: 5,
-        category: 'jewelry',
-        location: 'Miami',
-        price: 200,
-        images: ['img13.jpg', 'img14.jpg', 'img15.jpg'],
-        postedTime: '2023-05-01'
-    },
-    {
-        id: 6,
-        category: 'others',
-        location: 'Houston',
-        price: 70,
-        images: ['img16.jpg', 'img17.jpg', 'img18.jpg'],
-        postedTime: '2023-06-01'
-    }
+    
 ];
 
 let filteredAds = [...adData];
