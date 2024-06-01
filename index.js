@@ -1,6 +1,14 @@
 // Dummy ad data
 const adData = [
     {
+        id: 40,
+        category: 'clothing',
+        location: 'New York',
+        price: 150,
+        images: ['img45.jpg', 'img46.jpg', 'img3.jpg'],
+        postedTime: '2024-06-01'
+    },
+    {
         id: 1,
         category: 'clothing',
         location: 'New York',
